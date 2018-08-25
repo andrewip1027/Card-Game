@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CardProblems
+comment0.text=\n\ Solves\ card\ games\ problems\ with\ if\ and\ loop\ statements.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=CardProblems()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ CardProblems\n
+comment2.params=c
+comment2.target=int\ getRank(char)
+comment2.text=\n\ Converts\ a\ card\ rank\ character\ representation\ to\ a\ numerical\ value\n\n\ @param\ \ c\ \ the\ card\ rank\ character\ representation\n\ @return\ \ \ \ the\ numerical\ value\n
+comment3.params=hand
+comment3.target=boolean\ hasFlush(java.lang.String)
+comment3.text=\n\ Checks\ whether\ a\ five-card\ poker\ hand\ is\ a\ flush\n\n\ @param\ \ hand\ \ the\ five-card\ poker\ hand\ given\ as\ 10-character\ string\n\ @return\ \ \ \ \ \ \ true\ if\ all\ five\ cards\ are\ of\ the\ same\ suit,\ otherwise\ false\n
+comment4.params=hand
+comment4.target=boolean\ hasFourOfAKind(java.lang.String)
+comment4.text=\n\ Determines\ whether\ the\ given\ five-card\ poker\ hand\ contains\ four\ of\ a\ kind\n\n\ @param\ \ hand\ \ the\ five-card\ poker\ hand\ given\ as\ 10-character\ string\n\ @return\ \ \ \ \ \ \ true\ if\ there\ are\ four\ cards\ of\ the\ same\ rank\ in\ the\ hand,\ otherwise\ false\n
+comment5.params=hand
+comment5.target=boolean\ hasFourCardBadugi(java.lang.String)
+comment5.text=\n\ Checks\ whether\ the\ given\ four-card\ hand\ is\ a\ badugi\n\n\ @param\ \ hand\ \ the\ four-card\ poker\ hand\ given\ as\ 8-character\ string\n\ @return\ \ \ \ \ \ \ true\ if\ no\ two\ cards\ have\ the\ same\ suit\ or\ rank,\ that\ is,\ all\ four\ ranks\ are\ different,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ all\ four\ suits\ are\ different,\ otherwise\ false\n
+numComments=6
